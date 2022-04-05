@@ -5,7 +5,7 @@
     <div class="offset-md-3 col-md-6">
        <div class="card">
           <div class="card-header text-center">
-             Modificar película
+             Modificar película {{$pelicula['title']}}
           </div>
           <div class="container card-body" style="padding:30px">
               <div class="row">
@@ -22,35 +22,35 @@
                             <div class="form-group">
                                 <tr>
                                     <th><label for="title">Título</label></th>
-                                    <th><input type="text" name="title" id="title" class="form-control" placeholder="Title"></th>
+                                    <th><input type="text" name="title" id="title" class="form-control" placeholder="{{$pelicula['title']}}"></th>
                                     <th>text</th>
                                 </tr>
                             </div>
                             <div class="form-group">
                                 <tr>
                                     <th><label for="title">Año</label></th>
-                                    <th><input type="text" name="year" id="year" class="form-control" placeholder="Year"></th>
+                                    <th><input type="text" name="year" id="year" class="form-control" placeholder="{{$pelicula['year']}}"></th>
                                     <th>text</th>
                                 </tr>
                             </div>
                             <div class="form-group">
                                 <tr>
                                     <th><label for="title">Director</label></th>
-                                    <th><input type="text" name="director" id="director" class="form-control" placeholder="Director"></th>
+                                    <th><input type="text" name="director" id="director" class="form-control" placeholder="{{$pelicula['director']}}"></th>
                                     <th>text</th>
                                 </tr>
                             </div>
                             <div class="form-group">
                                 <tr>
                                     <th><label for="title">Poster</label></th>
-                                    <th><input type="text" name="poster" id="poster" class="form-control" placeholder="Poster"></th>
+                                    <th><input type="text" name="poster" id="poster" class="form-control" placeholder="{{$pelicula['poster']}}"></th>
                                     <th>text</th>
                                 </tr>
                             </div>
                             <div class="form-group">
                                 <tr>
                                     <th><label for="title">Resumen</label></th>
-                                    <th><textarea name="synopsis" id="synopsis" class="form-control" rows="3" placeholder="Synopsis"></textarea></th>
+                                    <th><textarea name="synopsis" id="synopsis" class="form-control" rows="3" placeholder="{{$pelicula['synopsis']}}"></textarea></th>
                                     <th>textarea</th>
                                 </tr>
                             </div>
